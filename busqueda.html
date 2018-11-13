@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="utf-8" />
+    <title>Busqueda</title>
+</head>
+<body>
+    <div class="container">
+        <div class="panel panel-default">
+            <header class="row panel-heading">
+                <div class="col-md-2">
+                    <h1>FILMATES</h1>
+                    <H2>BUSQUEDA</H2>
+                </div>
+                <div class="col-md-5 col-md-offset-6">
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="container-fluid">
+
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav nav-pills head-menu">
+                                    <li role="presentation"><a href="index.html" id="inicio">INICIO</a></li>
+                                    <li role="presentation" class="active"><a href="busqueda.html" id="busqueda">BUSQUEDA</a></li>
+                                    <li role="presentation"><a href="acerca_de.html" id="acercaDe">ACERCA DE</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+    </div>
+    <div id="header">
+        <h3 class="title">Bienvenidos al consultorio de peliculas, donde podrá buscar su pelicula y guardar las peliculas que le gusten.</h3>
+    </div>
+    <div>&nbsp;</div>
+    <div class="container">
+        <div class="row panel panel-default">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Busque peliculas</h1>
+                            <div class="input-group">
+                                <input id="search" type="text" class="form-control" placeholder="Escriba su búsqueda" aria-label="sizing-addon1">
+                                <div class="input-group-btn">
+                                    <input class="btn btn-primary" type="button" value="Buscar" id="buscarNombre" />
+                                </div>
+                            </div>
+                            <div>&nbsp;</div>
+                            <div id="listaPeliculas"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Peliculas seleccionadas</h1>
+                            <div id="listaPeliculasSeleccionadas"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 panel panel-default panel-heading">
+                    <aside class="col-md-12">
+                        <p>
+                            “Esta es mi página, hay otras muchas pero esta es la mía. Mi página es mi mejor amiga, y es mi vida, tengo que dominarla igual que me domino a mí mismo. Sin mí mi página no sirve, sin mi página yo tampoco sirvo. Tengo que acertar con mi página, tengo que surfear en el internet que quiere matarme, tengo que darle antes de que me de a mi, lo haré. Esto que digo lo juro ante Dios, mi página y yo somos los defensores de mi patria, dominamos a nuestros enemigos y salvamos nuestras propias vidas. Así sea, hasta que en vez de enemigos haya paz. Amén.”.<br />
+                            <br />
+                            “Esta es mi página, hay otras muchas pero esta es la mía. Mi página es mi mejor amiga, y es mi vida, tengo que dominarla igual que me domino a mí mismo. Sin mí mi página no sirve, sin mi página yo tampoco sirvo. Tengo que acertar con mi página, tengo que surfear en el internet que quiere matarme, tengo que darle antes de que me de a mi, lo haré. Esto que digo lo juro ante Dios, mi página y yo somos los defensores de mi patria, dominamos a nuestros enemigos y salvamos nuestras propias vidas. Así sea, hasta que en vez de enemigos haya paz. Amén.”.<br />
+                            <br />
+                            “Esta es mi página, hay otras muchas pero esta es la mía. Mi página es mi mejor amiga, y es mi vida, tengo que dominarla igual que me domino a mí mismo. Sin mí mi página no sirve, sin mi página yo tampoco sirvo. Tengo que acertar con mi página, tengo que surfear en el internet que quiere matarme, tengo que darle antes de que me de a mi, lo haré. Esto que digo lo juro ante Dios, mi página y yo somos los defensores de mi patria, dominamos a nuestros enemigos y salvamos nuestras propias vidas. Así sea, hasta que en vez de enemigos haya paz. Amén.”.<br />
+                            <br />
+                            “Esta es mi página, hay otras muchas pero esta es la mía. Mi página es mi mejor amiga, y es mi vida, tengo que dominarla igual que me domino a mí mismo. Sin mí mi página no sirve, sin mi página yo tampoco sirvo. Tengo que acertar con mi página, tengo que surfear en el internet que quiere matarme, tengo que darle antes de que me de a mi, lo haré. Esto que digo lo juro ante Dios, mi página y yo somos los defensores de mi patria, dominamos a nuestros enemigos y salvamos nuestras propias vidas. Así sea, hasta que en vez de enemigos haya paz. Amén.”.<br />
+                            <br />
+                            “Esta es mi página, hay otras muchas pero esta es la mía. Mi página es mi mejor amiga, y es mi vida, tengo que dominarla igual que me domino a mí mismo. Sin mí mi página no sirve, sin mi página yo tampoco sirvo. Tengo que acertar con mi página, tengo que surfear en el internet que quiere matarme, tengo que darle antes de que me de a mi, lo haré. Esto que digo lo juro ante Dios, mi página y yo somos los defensores de mi patria, dominamos a nuestros enemigos y salvamos nuestras propias vidas. Así sea, hasta que en vez de enemigos haya paz. Amén.”.<br />
+                            <br />
+                            “Esta es mi página, hay otras muchas pero esta es la mía. Mi página es mi mejor amiga, y es mi vida, tengo que dominarla igual que me domino a mí mismo. Sin mí mi página no sirve, sin mi página yo tampoco sirvo. Tengo que acertar con mi página, tengo que surfear en el internet que quiere matarme, tengo que darle antes de que me de a mi, lo haré. Esto que digo lo juro ante Dios, mi página y yo somos los defensores de mi patria, dominamos a nuestros enemigos y salvamos nuestras propias vidas. Así sea, hasta que en vez de enemigos haya paz. Amén.”.<br />
+                            <br />
+                        </p>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row panel panel-default panel-footer">
+            <div class="row">
+                <footer>
+                    <div>
+                        <p class="title">COPYLEFT - 2018 - MIGUELDANS | CC-BY-SA <br />POWERED BY THE MOVIE DB<br />Data CC-By-SA by OpenStreetMap</p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="app.js" charset="iso-8859-1"></script>
+</body>
+</html>
